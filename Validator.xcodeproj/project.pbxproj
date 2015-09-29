@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57A78D231BBA5D2900058866 /* WithinRangeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A78D221BBA5D2900058866 /* WithinRangeRule.swift */; settings = {ASSET_TAGS = (); }; };
 		623F29941AD836E6005B26CB /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F29931AD836E6005B26CB /* MaxLengthRule.swift */; };
 		628637261AAA474B00BC8FCF /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628637251AAA474B00BC8FCF /* MinLengthRule.swift */; };
 		628637281AAA49E300BC8FCF /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628637271AAA49E300BC8FCF /* ConfirmRule.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57A78D221BBA5D2900058866 /* WithinRangeRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithinRangeRule.swift; sourceTree = "<group>"; };
 		623F29931AD836E6005B26CB /* MaxLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxLengthRule.swift; sourceTree = "<group>"; };
 		628637251AAA474B00BC8FCF /* MinLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinLengthRule.swift; sourceTree = "<group>"; };
 		628637271AAA49E300BC8FCF /* ConfirmRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmRule.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				62DC8D6A1AAA42CE0095DFA7 /* RequiredRule.swift */,
 				62DC8D641AAA42520095DFA7 /* Rule.swift */,
 				62DC8D701AAA43110095DFA7 /* ZipCodeRule.swift */,
+				57A78D221BBA5D2900058866 /* WithinRangeRule.swift */,
 			);
 			name = Rules;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				62DC8D6E1AAA42CE0095DFA7 /* PasswordRule.swift in Sources */,
 				62DC8D6C1AAA42CE0095DFA7 /* EmailRule.swift in Sources */,
 				D7C1D97E1BA25940008CE686 /* PhoneNumberRule.swift in Sources */,
+				57A78D231BBA5D2900058866 /* WithinRangeRule.swift in Sources */,
 				628637281AAA49E300BC8FCF /* ConfirmRule.swift in Sources */,
 				62DC8D651AAA42520095DFA7 /* Rule.swift in Sources */,
 				62D1AE1F1A1E6D4400E4DFF8 /* ViewController.swift in Sources */,
