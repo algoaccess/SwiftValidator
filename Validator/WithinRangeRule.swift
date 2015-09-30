@@ -16,7 +16,7 @@ public class WithinRangeRule : Rule {
     private var maxRange: Int
     
     
-    public init(minRange: Int, maxRange: Int, message : String = "Please ensure value is within range "){
+    public init(minRange: Int, maxRange: Int, message : String = "Value out of range "){
         self.message = message
         self.minRange = minRange
         self.maxRange = maxRange
