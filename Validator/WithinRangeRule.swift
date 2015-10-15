@@ -12,11 +12,11 @@ public class WithinRangeRule : Rule {
     
     private var message : String
     
-    private var minRange: Int
-    private var maxRange: Int
+    private var minRange: Float
+    private var maxRange: Float
     
     
-    public init(minRange: Int, maxRange: Int, message : String = "Value out of range "){
+    public init(minRange: Float, maxRange: Float, message : String = "Value out of range "){
         self.message = message
         self.minRange = minRange
         self.maxRange = maxRange
@@ -24,7 +24,7 @@ public class WithinRangeRule : Rule {
     
     public func validate(value: String) -> Bool {
         
-        let textFieldValue = Int(value)
+        let textFieldValue = (value as NSString).floatValue
         
         return textFieldValue >= minRange && textFieldValue <= maxRange
     }
@@ -32,4 +32,5 @@ public class WithinRangeRule : Rule {
     public func errorMessage() -> String {
         return message
     }
+
 }
