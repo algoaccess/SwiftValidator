@@ -19,8 +19,10 @@ public class RegexRule : Rule {
     }
     
     public func validate(value: String) -> Bool {
+        let newValue = value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+        
         let test = NSPredicate(format: "SELF MATCHES %@", self.REGEX)
-        return test.evaluateWithObject(value)
+        return test.evaluateWithObject(newValue)
     }
     
     public func errorMessage() -> String {

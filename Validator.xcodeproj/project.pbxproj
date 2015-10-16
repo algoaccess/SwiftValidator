@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573A79181BD0B9F90077C7A7 /* NRICRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A79171BD0B9F90077C7A7 /* NRICRule.swift */; settings = {ASSET_TAGS = (); }; };
 		57A78D231BBA5D2900058866 /* WithinRangeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A78D221BBA5D2900058866 /* WithinRangeRule.swift */; settings = {ASSET_TAGS = (); }; };
 		623F29941AD836E6005B26CB /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F29931AD836E6005B26CB /* MaxLengthRule.swift */; };
 		628637261AAA474B00BC8FCF /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628637251AAA474B00BC8FCF /* MinLengthRule.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		573A79171BD0B9F90077C7A7 /* NRICRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRICRule.swift; sourceTree = "<group>"; };
 		57A78D221BBA5D2900058866 /* WithinRangeRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithinRangeRule.swift; sourceTree = "<group>"; };
 		623F29931AD836E6005B26CB /* MaxLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxLengthRule.swift; sourceTree = "<group>"; };
 		628637251AAA474B00BC8FCF /* MinLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinLengthRule.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				62DC8D641AAA42520095DFA7 /* Rule.swift */,
 				62DC8D701AAA43110095DFA7 /* ZipCodeRule.swift */,
 				57A78D221BBA5D2900058866 /* WithinRangeRule.swift */,
+				573A79171BD0B9F90077C7A7 /* NRICRule.swift */,
 			);
 			name = Rules;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573A79181BD0B9F90077C7A7 /* NRICRule.swift in Sources */,
 				62DC8D681AAA42920095DFA7 /* FullNameRule.swift in Sources */,
 				62E9E2AD1ACFB336000A939C /* RegexRule.swift in Sources */,
 				62D1AE4F1A1E6FF800E4DFF8 /* ValidationError.swift in Sources */,
