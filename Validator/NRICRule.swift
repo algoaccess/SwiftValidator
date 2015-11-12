@@ -10,7 +10,7 @@ import Foundation
 
 public class NRICRule: RegexRule {
     
-    public convenience init(message : String = "Enter a valid NRIC"){
+    public convenience init(message : String = "Invalid NRIC"){
         self.init(regex: "([A-Z]{1})\\d{7}([A-Z]{1})", message : message)
     }
 }

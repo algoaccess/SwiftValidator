@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		573A79181BD0B9F90077C7A7 /* NRICRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A79171BD0B9F90077C7A7 /* NRICRule.swift */; settings = {ASSET_TAGS = (); }; };
-		57A78D231BBA5D2900058866 /* WithinRangeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A78D221BBA5D2900058866 /* WithinRangeRule.swift */; settings = {ASSET_TAGS = (); }; };
+		573A79181BD0B9F90077C7A7 /* NRICRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A79171BD0B9F90077C7A7 /* NRICRule.swift */; };
+		57A78D231BBA5D2900058866 /* WithinRangeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A78D221BBA5D2900058866 /* WithinRangeRule.swift */; };
 		623F29941AD836E6005B26CB /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F29931AD836E6005B26CB /* MaxLengthRule.swift */; };
 		628637261AAA474B00BC8FCF /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628637251AAA474B00BC8FCF /* MinLengthRule.swift */; };
 		628637281AAA49E300BC8FCF /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628637271AAA49E300BC8FCF /* ConfirmRule.swift */; };
@@ -28,7 +28,7 @@
 		62DC8D6E1AAA42CE0095DFA7 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC8D6B1AAA42CE0095DFA7 /* PasswordRule.swift */; };
 		62DC8D711AAA43110095DFA7 /* ZipCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC8D701AAA43110095DFA7 /* ZipCodeRule.swift */; };
 		62E9E2AD1ACFB336000A939C /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E2AC1ACFB336000A939C /* RegexRule.swift */; };
-		D7C1D97E1BA25940008CE686 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C1D97D1BA25940008CE686 /* PhoneNumberRule.swift */; settings = {ASSET_TAGS = (); }; };
+		D7C1D97E1BA25940008CE686 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C1D97D1BA25940008CE686 /* PhoneNumberRule.swift */; };
 		DC5A35EC1AF99BA60013FE6B /* FloatRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A35EB1AF99BA60013FE6B /* FloatRule.swift */; };
 /* End PBXBuildFile section */
 
