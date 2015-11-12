@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "SwiftValidator"
   s.version      = "3.0.0"
   s.summary      = "A UITextField Validation library for Swift"
-  s.homepage     = "https://github.com/jpotts18/SwiftValidator"
+  s.homepage     = "https://github.com/algoaccess/SwiftValidator.git"
   s.screenshots  = "https://raw.githubusercontent.com/jpotts18/SwiftValidator/master/swift-validator-v2.gif"
   s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author             = { "Jeff Potter" => "jeff.potter6@gmail.com" }
